@@ -198,7 +198,7 @@ OUT: ListOpenOut: 1 total rows in bound list 00C6BA0DE30B61660080016E00FC0005.
 在Input的地方有Required、IfDirty、Subscribe這三種
 
 Required是PDM內部要求一定要填上的資料，如果不填系統會不給過(綠色部分)
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/Person.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/Person.png)
 
 IfDirty則是你選擇性可以多填上的資料，原則上IfDirty>=Required，不可以比Required少
 
