@@ -146,7 +146,7 @@ int step1( char* data[] )
 這些為常見出現在進入讀取PDM系統內進行新增刪除修改查詢(CRUD)的Function
 
 ## PM_Create_List
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Create_List.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Create_List.png)
 
 PM_Object_List* pList;  要記得宣告
 
@@ -155,7 +155,7 @@ PM_Object_List* pList;  要記得宣告
 
 ##  PM_Set_Clause
 
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Set_Clause.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Set_Clause.png)
 
 呼叫方式:
 ```
@@ -176,10 +176,10 @@ Where、Select在編寫客製化程式時很常需要用到
 OrderBy的話則可以忽略沒關西,那是在畫面上呈現要給User看的時候方便用的
 
 ## PM_Open_List
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Open_List.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Open_List.png)
 
 ## PM_SizeOf_List
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_SizeOf_List.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_SizeOf_List.png)
 
 int    ListSize;  要記得宣告
 
@@ -190,13 +190,13 @@ RC = PM_SizeOf_List( pList, ListSize );
 ```
 
 ## PM_Create_Object
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Create_Object.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Create_Object.png)
 
 ## PM_Set_Object_Attr
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Set_Object_Attr.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Set_Object_Attr.png)
 
 ## PM_Save_Object
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Save_Object.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Save_Object.png)
 
 其實就把變數宣告好，丟進去Function就好
 
@@ -226,14 +226,14 @@ RC = PM_SizeOf_List( pList, ListSize );
 
 要注意的是PM_Set_Object_Attr裡面
 
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Set_Object_Attr2.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Set_Object_Attr2.png)
 
 **attr_name 放的是pclass中含有的欄位
 而value則是預期會放我們要倒檔進去的值 OR 系統內定預設的值(建議就照寫不要修改)**
 
 ## ErrorCheck
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/ErrorCheck_code.png)
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/ErrorCheck_text.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/ErrorCheck_code.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/ErrorCheck_text.png)
 ```
 void ErrorCheck( char* FuncName )
 {
@@ -255,9 +255,9 @@ ErrorCheck()寫在msg.c這支程式碼裡面用來被呼叫
 包含ErrorCode和ErrorText
 
 ## PM_Destroy_Object
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Destroy_Object.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Destroy_Object.png)
 
 ## PM_Destroy_List
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/PM_Destroy_List.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/PM_Destroy_List.png)
 
 在C語言中，記憶體管理是手動進行的。這意味著開發者需要自己負責記憶體的分配和釋放。C語言中沒有像Java那樣的垃圾回收機制（Garbage Collector）來自動處理不再使用的內存。如果在C語言中忘記釋放記憶體，就會造成記憶體洩漏，長期運行可能導致記憶體耗盡，系統崩潰。
