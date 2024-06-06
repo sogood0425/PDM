@@ -112,7 +112,7 @@ strlen(temp): 4
 data[0]: 511
 size of data[0]: 3
 
-![image](https://raw.githubusercontent.com/sogood0425/PDM/main/images/fgets.png)
+![image](https://raw.githubusercontent.com/sogood0425/PDM/main/base_images/fgets.png)
 
 ***
 fgets 函數確實會讀取一行，並且如果存在換行符，會包括換行符，最後添加 null 字元 \0。所以如果 input.txt 的一行是 "511"，fgets 會讀取 "511\n"，並且 temp 將包含 "511\n\0"。
