@@ -66,7 +66,7 @@ PM_Logon是屬於PDM系統內建的程式，可以在SDK Reader Reference Guide.
 
 #### sdk.in檔案裡面要寫四個欄位的值,且必須以空白做區隔
 User, Password, Server, Config
-User, Password = 員工帳號 + 密碼 或 超級帳號 plmadm01 + tel3259
+User, Password = 員工帳號 + 密碼
 Server可以選擇pmserver or pmdev
 Config 則是看需要什麼 如S76 F16....
 
