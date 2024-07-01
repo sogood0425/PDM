@@ -2,3 +2,12 @@ git config --global http.proxy http://617816:Wsad_0923@aidcproxy:8080
 git add .
 git commit -m "說明"
 git push origin main
+
+
+Workercenter = 工作中心置換
+Location_ais = LAI
+manf = 製造資料儲存
+heat = heat + heat_folder
+disposition = disposition
+roun_data = ROUNTING
+ff = heat_folder

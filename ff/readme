@@ -1,0 +1,4 @@
+dis.exe pmserver AT3 [input.data]
+app.exe pmserver AT3 [inputd.ata]
+osm.exe pmserver AT3 [inputd.ata]
+sap.exe pmserver AT3 [inputd.ata]
