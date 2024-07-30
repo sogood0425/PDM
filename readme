@@ -1,4 +1,4 @@
-git config --global http.proxy http://617816:Wsad_0923@aidcproxy:8080
+git config --global http.proxy http://ID:password@aidcproxy:8080
 git add .
 git commit -m "說明"
 git push origin main
